@@ -1,7 +1,14 @@
 * {
     background-color: lightblue;
-    color: coral;
-    
+    color: coral; 
+}
+body {
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 h2 {
     text-align: center;
