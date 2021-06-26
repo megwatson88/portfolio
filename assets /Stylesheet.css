@@ -24,4 +24,10 @@ header nav ul  {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    display: inline;
+    list-style: none;
+}
+h1 {
+    text-align: center;
+
 }
