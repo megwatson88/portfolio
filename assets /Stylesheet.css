@@ -17,6 +17,7 @@ h2 {
 }
 ul {
     list-style: none;
+    display: inline-flex;
 }
 header nav ul  {
     display: flex;
