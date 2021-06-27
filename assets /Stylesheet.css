@@ -68,7 +68,9 @@ img {
     width: 150px;
     
 }
-
+a:hover{
+    opacity: 0.2;
+}
 p {
     font-size: 10pt;
 }
