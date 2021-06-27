@@ -55,7 +55,9 @@ h3 {
 p {
     font-size: 16pt;
 }
-.contact-me{
-    
-    
+footer{
+    display: inline;
+    margin: auto;
+
 }
+
