@@ -23,8 +23,10 @@ THEN I am taken to that deployed application</li>
 THEN I am presented with a responsive layout that adapts to my viewport</li> </ul>
 
 ## Links 
-Github Repo Link 
-Deployed webpage 
+<ol>
+<li> Github Repo Link </li>
+<li> Deployed webpage </li>
+</ol>
 
 
 ## Sources 
