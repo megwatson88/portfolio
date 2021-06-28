@@ -25,8 +25,8 @@ WHEN I load their portfolio</li>
 
 ## Links 
 <ol>
-<li> Github Repo Link <a> https://github.com/megwatson88/portfolio </a> </li>
-<li> Deployed webpage </li>
+<li> <a href= "https://github.com/megwatson88/portfolio" target="_blank"> Git Repo </a> </li>
+<li>  <a href="https://megwatson88.github.io/portfolio/" target="_blank">  Deployed Link</li>
 </ol>
 
 
