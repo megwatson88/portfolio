@@ -1,20 +1,18 @@
 * {
-    background-color: #eca1a6;
-    color:#d5e1df; 
+    background-color: #e4d1d1;
+    color: black; 
 }
 nav {
-    background-color: beige;
     display: inline;
    box-sizing: content-box;
    word-spacing: normal;
+   background-color: #c2d4dd;
 }
 nav ul {
-    background-color: beige;
     text-align: right;
 }
 nav ul li {
     align-content: center;
-    background-color: beige;
     white-space: normal;
 }
 body {
@@ -24,13 +22,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: lightblue;
 }
-div{
-   margin: auto;
-   background-color: cadetblue;
-   
-}
+
 h1 {
     text-align: center;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -41,15 +34,10 @@ h1 {
 .About-me-text {
     text-align: right;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: small;
+    font-size: medium;
 }
 
-h2 {
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    flex-wrap: wrap;
-}
+
 
 ul {
     list-style: none;
@@ -66,8 +54,6 @@ img {
     width: 150px;
     display: inline-block;
     opacity: 1;
-
-    
 }
 .avatar {
     display: inline;
@@ -89,40 +75,21 @@ footer{
     text-align: center;
     
 }
-.About-me 
-/* Media additions */
-@media screen {max-width: 1024px;
-    div{
-        background-color: beige;
-    }
-    img{
-        display: inline-block;
-    }
-}
 
-@media screen {max-width: 768px;
-    div{
-        background-color: blue;
-    }
-    img {
-        display: block;
-    }
-}
 
-@media screen {max-width: 600px;
-    div{
-        background-color: blueviolet;
-    }
-}
-@media screen {max-width: 480px;
-    div{
-        background-color: burlywood;
-    }
-    
-}
-@media screen {max-width: 300px;
-    div{
-        background-color: cornsilk;
-    }
-    
-}
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
