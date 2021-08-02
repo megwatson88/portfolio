@@ -6,7 +6,6 @@ nav {
     display: inline;
    box-sizing: content-box;
    word-spacing: normal;
-   background-color: #c2d4dd;
 }
 nav ul {
     text-align: right;
@@ -37,15 +36,12 @@ h1 {
     font-size: medium;
 }
 
-
-
 ul {
     list-style: none;
-    display: inline-flex;
-}
+    display: inline-flex; 
+    margin: 0;
+    padding: 0;
 
-.first-image {
-    width: 300px;
 }
 
 img {
@@ -71,9 +67,7 @@ p {
 footer{
     display: block;
     margin: auto;
-    background-color: beige;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 
