@@ -6,13 +6,16 @@ nav {
     display: inline;
    box-sizing: content-box;
    word-spacing: normal;
+   background-color: #77a8a8 ;
 }
 nav ul {
     text-align: right;
+    background-color: #77a8a8 ;
 }
 nav ul li {
     align-content: center;
-    white-space: normal;
+    
+    background-color: #77a8a8 ;
 }
 body {
    margin: 0;
