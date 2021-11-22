@@ -11,10 +11,11 @@ nav {
 nav ul {
     text-align: right;
     background-color: #77a8a8 ;
+    border: 1px solid black;
 }
 nav ul li {
     align-content: center;
-    
+    border-bottom: 1px solid black;
     background-color: #77a8a8 ;
 }
 body {
