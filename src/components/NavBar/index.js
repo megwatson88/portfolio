@@ -4,14 +4,14 @@ import styled from 'styled-components';
 
 
 const Styles = styled.div`
-  .navbar { background-color: #222; }
+  .navbar { background-color: #6495ED ; }
   a, .navbar-nav, .navbar-light .nav-link {
-    color: #9FFFCB;
+    color: white;
     &:hover { color: white; }
   }
   .navbar-brand {
     font-size: 1.4em;
-    color: #9FFFCB;
+    color: white;
     &:hover { color: white; }
   }
   .form-center {
@@ -32,6 +32,8 @@ export const NavBar = () => (
         <Nav className="ml-auto">
           <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item> 
           <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link href="/resume">Resume</Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link href="/pastwork">Past Work</Nav.Link></Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

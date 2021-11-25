@@ -4,11 +4,12 @@ import { BrowserRouter as Router, Route, Link, withRouter } from "react-router-d
 
 const StyledSideNav = styled.div`   
     position: fixed;     /* Fixed Sidebar (stay in place on scroll and position relative to viewport) */
-    height: 100%;
+    height: 50%;
     width: 75px;     /* Set the width of the sidebar */
     z-index: 1;      /* Stay on top of everything */
     top: 3.4em;      /* Stay at the top */
-    background-color: #222; /* Black */
+    background-color: #6495ED; /* Black */
+    opacity: 0.8;    /* Set the opacity of the sidebar */
     overflow-x: hidden;     /* Disable horizontal scroll */
     padding-top: 10px;
 `;
@@ -37,6 +38,12 @@ class SideNav extends React.Component {
                   css: 'fas fa-hashtag',
                   key: 3
                 },
+                {
+                    path: '/resume',
+                    name: 'resume',
+                    css: 'fas fa-hashtag',
+                    key: 4
+                  },
               ]
         }
     }

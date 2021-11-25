@@ -9,6 +9,9 @@ import { About } from './About';
 import { NoMatch } from './NoMatch';
 import Sidebar from './components/Sidebar/index';
 import PastWork from './components/PastWork';
+import Footer from './components/Footer/index';
+import Resume from './components/Resume/index';
+
 
 function App() {
   return (
@@ -26,7 +29,10 @@ function App() {
           <Route component="pastwork" component={PastWork} />
         </Switch>
         <PastWork/>
+        <Resume/>
+        <Footer/>
       </Router>
+    
     </React.Fragment>
     
   
