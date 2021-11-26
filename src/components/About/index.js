@@ -10,9 +10,12 @@ const GridWrapper = styled.div`
   grid-auto-rows: minmax(25px, auto);
 `;
 export const About = () => (
-    <GridWrapper>
-        <h2>About Page</h2>
-        <p> Hello, I am Megan. I was born and raised in Colorado Springs, CO. I am a mother and wife. My
+  <GridWrapper>
+    <h2>About Page</h2>
+    <div className="container">
+      <div className="row">
+        <div className="col-sm-3">
+          <p> Hello, I am Megan. I was born and raised in Colorado Springs, CO. I am a mother and wife. My
             education
             background is
             a BS in Human Biology from the University of Colorado.
@@ -23,7 +26,10 @@ export const About = () => (
             mountains
             are my
             happy place. </p>
-    </GridWrapper>
+        </div>
+      </div>
+    </div>
+  </GridWrapper>
 )
 
 

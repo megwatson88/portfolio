@@ -50,8 +50,17 @@
   width: 75%;
   height: 100%;
 }
-
-nav {
+#pastprojects {
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 30%;
+  margin:100px;
+  padding: 10px;
+}
+/* nav {
   display: inline;
  box-sizing: content-box;
  word-spacing: normal;
@@ -65,10 +74,10 @@ nav ul {
 nav ul li {
   align-content: center;
   border-bottom: 1px solid black;
-  background-color: #77a8a8 ;
-}
+  background-color: #77a8a8 ; 
+ } */
 body {
- margin: 0;
+ margin: 50;
   padding:0;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;

@@ -14,7 +14,7 @@ const resume = () => {
         <body >
             <div className="#resume">
                 <div className="resume">
-
+                    <div className= "container">
                     <h1>PROFESSIONAL SUMMARY </h1>
                     <p>Degreed professional with nearly 4 years’ Lab Technician experience in a variety of settings. Employed general knowledge of chemistry and basic mathematical skills contributing to organization success. Exceptionally skilled organizer and multi-tasker with an innate ability to quickly grasp skills required to succeed. Works well independently or on multi-disciplinary teams.</p>
                     <h2>EDUCATION </h2>
@@ -45,6 +45,7 @@ const resume = () => {
                         <li>Managed lifeguards, patrons, and site financial accounts </li>
                     </ul>
                 </div>
+            </div>
             </div>
         </body>
     )
