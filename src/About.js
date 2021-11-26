@@ -1,5 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
+import avatar from './assets/myAvatar.png'
+
+
+
 const GridWrapper = styled.div`
   display: grid;
   grid-gap: 10px;
@@ -12,6 +16,7 @@ const GridWrapper = styled.div`
 export const About = () => (
     <GridWrapper>
         <h2>About Page</h2>
+        <img src={avatar} alt="avator of megan"/>
         Hello, I am Megan. I was born and raised in Colorado Springs, CO. I am a mother and wife. My
         education background is a BS in Human Biology from the University of Colorado.
         I taught middle and high school, biology and Chemistry were my main focus. While teaching middle

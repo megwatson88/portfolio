@@ -44,6 +44,10 @@ const resume = () => {
                         <li>Taught swimming lessons to approximately 225 students ranging from six months old to adults </li>
                         <li>Managed lifeguards, patrons, and site financial accounts </li>
                     </ul>
+
+                    <p>
+        Download my <a href="https://www.linkedin.com/in/megan-watson-751533127/">resume</a>
+        </p>
                 </div>
             </div>
             </div>
