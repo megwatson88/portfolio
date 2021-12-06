@@ -51,10 +51,7 @@
   height: 100%;
 }
 #pastprojects {
-  display: inline;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+ 
   width: 30%;
   height: 30%;
   margin:100px;
@@ -110,9 +107,9 @@ img {
   border-radius: 50%;
   padding: 5px;
   width: 150px;
-  display: center;
-  margin: 50px auto;
+  margin: 10px;
   opacity: 1;
+  display: right;
 }
 .avatar {
   display: inline;

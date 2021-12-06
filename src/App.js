@@ -11,6 +11,7 @@ import Sidebar from './components/Sidebar/index';
 import PastWork from './components/PastWork';
 import Footer from './components/Footer/index';
 import Resume from './components/Resume/index';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -25,8 +26,9 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route component={NoMatch} />
-          <Route component="pastwork" component={PastWork} />
+          <Route path="/contact" component={Contact} />
+          <Route component="/pastwork" component={PastWork} />
+          <Route component="resume" component={Resume} />
         </Switch>
         <PastWork/>
         <Resume/>

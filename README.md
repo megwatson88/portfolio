@@ -3,7 +3,6 @@
 # description
 The purpose of this project is to develop a react single page webiste to showcase my skills and projects.
 
-# usage
 
 ## User Story
 
@@ -53,7 +52,8 @@ To instal the project, run the following command:
 # Contributing
 This project is not open source. Please do not submit pull requests.
 
-
+# Deployed Link 
+<a href="https://megwatson88.github.io/portfolio/" target="_blank" > Portfolio </a>
 
 # Getting Started with Create React App
 

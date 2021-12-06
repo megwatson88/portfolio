@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import avatar from '/Users/megancampbell/Desktop/projects/Assignment-2/portfolio/src/assets /myAvatar.png';
+
 const GridWrapper = styled.div`
   display: grid;
   grid-gap: 10px;
@@ -15,6 +17,7 @@ export const About = () => (
     <div className="container">
       <div className="row">
         <div className="col-sm-3">
+        <img src={avatar}/>
           <p> Hello, I am Megan. I was born and raised in Colorado Springs, CO. I am a mother and wife. My
             education
             background is
