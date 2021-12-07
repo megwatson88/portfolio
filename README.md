@@ -54,6 +54,7 @@ This project is not open source. Please do not submit pull requests.
 
 # Deployed Link 
 <a href="https://megwatson88.github.io/portfolio/" target="_blank" > Portfolio </a>
+<a href="http://myname.github.io/myapp" target="_blank"> My App </a>
 
 # Getting Started with Create React App
 
